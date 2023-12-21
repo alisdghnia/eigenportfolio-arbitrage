@@ -1,6 +1,6 @@
 % Define the file path
-data_path = '/Users/alisdghnia/Downloads/Fall 2023 - Machine Learning in Finance/s&p500_closing_prices.csv';
-spy_data_path = '/Users/alisdghnia/Downloads/Fall 2023 - Machine Learning in Finance/spy_historical_prices.csv';
+data_path = '~/s&p500_closing_prices.csv';
+spy_data_path = '~/spy_historical_prices.csv';
 % Use the 'readmatrix' function with the appropriate options for Excel files
 df = readmatrix(data_path);
 spy_df = readmatrix(spy_data_path);
